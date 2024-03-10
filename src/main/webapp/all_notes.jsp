@@ -1,3 +1,4 @@
+<%@page import="java.text.SimpleDateFormat"%>
 <%@page import="java.util.Iterator"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="com.entities.Note"%>
@@ -103,6 +104,9 @@
 		
 			<%
 				for (Note note : notes) {
+					SimpleDateFormat sdf = new SimpleDateFormat("dd MMMM yy, H:mm aa");
+					String createDate = sdf.format(note.getCreatedDate());
+					String updateDate = sdf.format(note.getModifiedDate());
 			%>
 		
 			<div class="col">
@@ -112,7 +116,7 @@
 			        <h5><%= note.getTitle() %> <span class="text-muted ps-2">(<%= note.getId() %>)</span> </h5> 
 			      </div>
 			      <div>
-			      	<small class="text-muted"><i>created at: <%= note.getCreatedDate() %></i></small>
+			      	<small class="text-muted"><i><b>created at:</b> <%= createDate %></i></small>
 			      </div>
 			    </div>
 			    <div class="card-body" style="height: 250px;">
@@ -128,7 +132,7 @@
 			      	if(! note.getCreatedDate().equals(note.getModifiedDate())) {
 			      %>
 				      <div class="text-end">
-				      	<small class="text-muted">edited at: </small> <small><%= note.getModifiedDate() %></small>
+				      	<small class="text-muted"><b>edited at:</b> </small> <small><%= updateDate %></small>
 				      </div>
 			      <%
 			      	}
