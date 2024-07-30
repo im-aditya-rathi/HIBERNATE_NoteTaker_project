@@ -1,8 +1,26 @@
-# Note Taker Project
-### Created using Java and Hibernate
+# Note Taker Application
+
+## Overview
+This Note Taker application allows users to create, edit, update, and delete notes. It is built using Spring, Hibernate, Servlet, and JSP, with an interactive GUI designed using Bootstrap.
+
+## Features
+- **Create Notes**: Add new notes with a title and description.
+- **Edit Notes**: Modify existing notes.
+- **Update Notes**: Save changes to notes.
+- **Delete Notes**: Remove notes that are no longer needed.
+- **Interactive GUI**: User-friendly interface designed with Bootstrap.
+- **Persistent Storage**: Notes are stored in a database using Hibernate.
+
+## Technologies Used
+- **Spring Framework**: Used for dependency injection and to manage application components.
+- **Spring XML Configuration**: Used for configuring Spring beans and other components.
+- **Hibernate**: Used for Object-Relational Mapping (ORM) to handle database operations.
+- **Servlet**: Used to handle HTTP requests and responses.
+- **JSP**: Used for rendering dynamic web pages.
+- **Bootstrap**: Used for creating a responsive and interactive user interface.
+
 
 <hr>
-
 <!-- Screenshots lists -->
 
 ## Screenshots
