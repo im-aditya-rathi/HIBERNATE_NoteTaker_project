@@ -1,7 +1,7 @@
 # Note Taker Application
 
 ## Overview
-This Note Taker application allows users to create, edit, update, and delete notes. It is built using Spring, Hibernate, Servlet, and JSP, with an interactive GUI designed using Bootstrap.
+This Note Taker application allows users to create, edit, update, and delete notes. It is built using Java, Spring, Hibernate, Servlet, and JSP, with an interactive GUI designed using Bootstrap.
 
 ## Features
 - **Create Notes**: Add new notes with a title and description.
