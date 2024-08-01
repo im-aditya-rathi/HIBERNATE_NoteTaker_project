@@ -12,6 +12,7 @@ This Note Taker application allows users to create, edit, update, and delete not
 - **Persistent Storage**: Notes are stored in a database using Hibernate.
 
 ## Technologies Used
+- **Java**: The core programming language utilized for developing the application's business logic and implementing various features.
 - **Spring Framework**: Used for dependency injection and to manage application components.
 - **Spring XML Configuration**: Used for configuring Spring beans and other components.
 - **Hibernate**: Used for Object-Relational Mapping (ORM) to handle database operations.
