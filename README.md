@@ -1,7 +1,7 @@
 # Note Taker Application
 
 ## Overview
-This Note Taker application allows users to create, edit, update, and delete notes. It is built using Java, Spring, Hibernate, Servlet, and JSP, with an interactive GUI designed using Bootstrap.
+This Note Taker application allows users to create, edit, update, and delete notes. It is built using Java, Spring, Hibernate, MySQL (Database), Servlet, and JSP, with an interactive GUI designed using Bootstrap.
 
 ## Features
 - **Create Notes**: Add new notes with a title and description.
@@ -16,6 +16,7 @@ This Note Taker application allows users to create, edit, update, and delete not
 - **Spring Framework**: Used for dependency injection and to manage application components.
 - **Spring XML Configuration**: Used for configuring Spring beans and other components.
 - **Hibernate**: Used for Object-Relational Mapping (ORM) to handle database operations.
+- **MySQL Database**: A widely-used relational database management system that stores application data efficiently, supports SQL for querying, and integrates seamlessly with Spring Boot and JPA.
 - **Servlet**: Used to handle HTTP requests and responses.
 - **JSP**: Used for rendering dynamic web pages.
 - **Bootstrap**: Used for creating a responsive and interactive user interface.
