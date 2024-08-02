@@ -55,7 +55,7 @@ This Note Taker application allows users to create, edit, update, and delete not
 
 <br>
 
-* ### Show notes (alter shown after adding new note)
+* ### Show notes (alert shown after adding new note)
 <table><kbd><p align="center">
     <img src="https://github.com/im-aditya-rathi/HIBERNATE_NoteTaker_project/blob/master/src/main/resources/screenshots/5.png" alt="Show notes (alter shown after adding new note)"/>
 </p></kbd></table>
